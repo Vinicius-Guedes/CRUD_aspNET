@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="CRUD_aspNet._default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder> 
+    <link rel="stylesheet" href="lib/css/site.css" />
+    <!--link rel="stylesheet" href="lib/css/bootstrap.min.css"-->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <img src="./lib/img/solistica.png" /> 
+            </div>
+            <div class="right">
+                <p>MOTORISTAS SOLISTICA</p>
+            </div>
+        </header>
+        <main>
+            <nav>
+                <text class="menu" id="index">HOME</text>
+                <label class="espaco"></label>
+                <text class="menu" id="inserir">INSERIR</text>
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </main>
+        <footer>Desenvolvido por <a href="https://linkedin.com/in/vinicius-pinto-guedes">Vinicius Guedes</a> - 2021</footer>
+    </div>
+    <!--script src="lib/js/bootstrap.min.js"></script-->
+    <!--script src="lib/js/bootstrap.min.js.map"></script-->
+    <script src="/lib/js/jquery-3.6.0.min.js"></script>
+    <script src="lib/js/site.js"></script>
+</body>
+</html>
+

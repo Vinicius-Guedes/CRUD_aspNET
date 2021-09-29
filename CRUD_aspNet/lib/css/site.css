@@ -1,0 +1,134 @@
+﻿html {
+    height: 100%;
+    background-color: #19243d;
+}
+
+body {
+    height: 80%;
+    margin: 5%;
+}
+
+.container {
+    height: 100%;
+    position: relative;
+    background: #19243d;
+    color: #ffffff;
+    border-style: double;
+    border-color: white;
+}
+
+header {
+    height: 15%;
+}
+    header .left{
+        width: 15%;
+        height: 100%;
+        float: left;
+    }
+    header .left img{
+        height: 100%;
+    }
+    header .right{
+        width: 72%;
+        height: 100%;
+        font-size: 200%;
+        float: left;
+        font-weight: bold;
+        text-align: center;
+    }
+
+main {
+    height: 80%;
+    width: 100%;
+}
+    main nav {
+        padding-top: 1%;
+        width: 100%;
+        height: 5%;
+        text-align: center;
+    }
+
+    main nav .espaco{
+        padding: 5%;
+    }
+
+        main nav text:hover, 
+        main #form_Insert input[type="submit"]:hover {
+            background-color: #f6811e;
+        }
+
+    main nav text {
+        border: solid 1px #e4570e;
+        padding: 3px;
+        background-color: #e4570e;
+    }
+
+    main #form_Insert {
+        width: 50%;
+        height: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+        main #form_Insert fieldset {
+            border: medium none !important;
+            margin: 0px;
+            padding: 10px 0px 0px 0px;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        main #form_Insert input[type="text"],
+        main #form_Insert input[type="number"],
+        main #form_Insert input[type="submit"] {
+            font: 400 12px/16px "Roboto", Verdana;
+            border: 1px solid #ccc;
+            background: #FFF;
+            padding-right: 0px;
+            -webkit-transition: border-color 0.3s ease-in-out;
+            -moz-transition: border-color 0.3s ease-in-out;
+            transition: border-color 0.3s ease-in-out;
+            border: 1px solid #aaa;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+        main #form_Insert input[type="submit"] {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+            color: white;
+            background-color: #e4570e;
+            font-weight: bold;
+        }
+        main #form_Insert #radio_Idade {
+            width: 100%;
+        }
+        main #form_Insert #radio_Idade input[type="text"] {
+            width: 30%;
+            float: right;
+        }
+
+        main #ContentPlaceHolder1_GridView1 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+        }
+
+footer {
+    height: 5%;
+    text-align: center;
+    bottom: 0;
+}
+    footer a {
+        color: #e4570e;
+    }
